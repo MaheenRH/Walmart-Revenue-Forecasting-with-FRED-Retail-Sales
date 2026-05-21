@@ -33,3 +33,16 @@ Using walk-forward out-of-sample forecasting, naive baselines, OLS regression mo
 - `analysis.py` — script version
 - `memo.md` — final written conclusions
 - `output/` — generated figures
+
+## AI-Assisted Development Workflow
+
+This repository includes a small `prompts.md` file documenting the AI-assisted workflow used during development.
+
+The purpose of including the prompt workflow is not to outsource analysis, but to improve transparency and reproducibility around:
+- debugging time-series alignment issues
+- discussing forecasting methodology
+- validating walk-forward evaluation design
+- interpreting statistical outputs
+- refining forecasting caveats and business interpretation
+
+The prompts primarily supported iterative reasoning and implementation refinement, while all modeling decisions, evaluation methodology, and final conclusions were independently verified within the notebook.
